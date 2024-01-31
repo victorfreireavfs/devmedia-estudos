@@ -1,0 +1,33 @@
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 20px 100px;
+    border-bottom: 2px solid rgba(169, 169, 169, 0.39);
+}
+
+p{
+    font-weight: normal;
+    text-align: center;
+    width: 900px;
+    margin: 35px auto;
+}
+
+img{
+    width: 180px;
+}
+
+span{
+    font-weight: bold;
+}
+
+a{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 29PX;
+    background-color: rgba(53, 153, 53, 0.726);
+    color: white;
+    border-radius: 25px;
+}

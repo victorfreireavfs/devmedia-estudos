@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+div{
+    width: 500px;
+    margin: 20px auto;
+    color: rgb(243, 240, 238);
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+}
+
+img{
+    height: 350px;
+    width: 500px;
+    border: 5px solid rgb(57, 206, 57);
+    border-radius: 5px;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seashell;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 5PX solid green;
+    border-left: 5PX solid green;
+}

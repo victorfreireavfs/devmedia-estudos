@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(233, 227, 227, 0.603)
+}
+
+div{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(124, 116, 116, 0.884);
+}
+
+h1{
+    font-size: 22px;
+    font-weight: bolder;
+    border: 5px solid rgb(110, 102, 102);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+h3{
+    border-top: 3px solid rgb(110, 102, 102);
+    border-bottom: 3px solid rgb(110, 102, 102) ;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+a{  
+    font-size: 20px;
+    color: white;
+    background-color: rgba(46, 219, 46, 0.89);
+    text-decoration: none;
+    padding: 15px 25px;
+    
+    border-radius: 25px;
+}
