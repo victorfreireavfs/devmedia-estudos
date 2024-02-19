@@ -1,2 +1,2 @@
 # devmedia-estudos
- Ecercícios práticos da plataforma DevMedia
+ Exercícios práticos da plataforma DevMedia
