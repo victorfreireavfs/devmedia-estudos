@@ -4,9 +4,7 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    text-align: center;
-}
+
 
 /* cabeçalho */
 .cabecalho{
@@ -27,7 +25,7 @@ body{
 /* banner */
 .banner img{
     margin-top: 50px;
-    margin-bottom: 70px;
+   padding-bottom: 0px;
 }
 
 /* sobre */
@@ -56,37 +54,97 @@ body{
 .servicos{
     color: white;
     font-size: 18px;
-    background-color:rgb(63, 150, 204);
 }
 .servicos p{
-    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 22px;
     margin: 40px auto;
-    width: 600px;
-    line-height: 35px;
+    width: 700px;
+    line-height: 42px;
 }
 .servicos h2{
-    padding-top: 60px;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
 }
 .servicos span{
-    font-weight: bold;
+    
     color: rgb(216, 216, 8);
 }
 .servicos ul{
-    margin: 40px auto;
+    text-align: left;
     width: 135px;
+    margin: 40px auto;
+    line-height: 30px;
+}
+
+/* corretores */
+.corretores h2{
+    line-height: 42px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: rgb(63, 150, 204);
+}
+.corretores img{
+   width: 450px;
+
+}
+.corretores p{
+    font-weight: bold;
+    text-align: justify;
+    margin: 15px 280px 30px 280px;
+    line-height: 25px;
+}
+.corretores span{
+    color: rgb(63, 150, 204);
 }
 
 
+/* contatos */
+.endereco p{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #ffffff;
+    padding: 18px 20px;
+    width: 950px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+}
+.endereco h2{
+    color: #ffffff;
+    font-weight: bold;
+}
+.endereco ul{
+    width: 230px;
+    margin: 40px auto;
+}
+.endereco ul li{
+    margin-top: 18px;
+    text-align: center;
+} 
+.endereco ul li a{
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 10px 10px;
+}
 
 
+/* global */
 .topico{
     font-size: 25px;
 }
-
 iframe{
-    width: 825px;
+    width: 830px;
     height: 350px;
+}
+span{
+    font-weight: bold;
+}
+.cabecalho, .banner, .servicos, .sobre, .corretores, .endereco{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.servicos, .endereco{
+    background-color:rgb(63, 150, 204);
 }
