@@ -105,7 +105,7 @@
     background-color: rgba(0, 0, 0, 0.726);
     color: #ffffff;
     padding: 18px 20px;
-    width: 950px;
+    width: 990px;
     text-align: center;
     margin: 20px auto;
     font-weight: bold;
@@ -134,8 +134,9 @@
     font-size: 25px;
 }
 iframe{
-    width: 830px;
-    height: 350px;
+    width: 850px;
+    height: 360px;
+    text-align: center;
 }
 span{
     font-weight: bold;
