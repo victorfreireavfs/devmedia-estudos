@@ -149,3 +149,6 @@ span{
 .servicos, .endereco{
     background-color:rgb(63, 150, 204);
 }
+html{
+    scroll-behavior: smooth;
+}
