@@ -66,3 +66,7 @@ h2 {
 span {
     font-weight: bold;
 }
+
+html{
+    scroll-behavior: smooth;
+}
