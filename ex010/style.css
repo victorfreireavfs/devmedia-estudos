@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: #250553;
+}
+
+
+
+.secao-topo{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(21, 21, 61);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.secao-conteudo{
+    color: #cfcfcf;
+    padding: 20px 80px;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+
+
+
+.secao-conteudo img{
+    height: 650px;
+}
+
+.secao-conteudo p{
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.texto-destaque{
+    background-color: blueviolet;
+    padding: 5px 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
