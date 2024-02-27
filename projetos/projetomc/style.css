@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(160, 147, 221, 0.836);
+}
+
+.topo{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(56, 53, 117);
+    color: #fff;
+}
+
+
+/* seção cadastro */
+.cadastro{
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    padding: 35px;
+    background-color: rgba(245, 247, 248, 0.63);
+    margin: 30px 50px ;
+    
+}
+
+.cadastro p input {
+    padding: 10px;
+    width: 300px;
+    
+}
