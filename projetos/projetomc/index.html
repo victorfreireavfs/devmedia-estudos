@@ -11,13 +11,19 @@
         <div class="imagem-formulario">
             <img src="imagens/imagem-cadastro.jpg" alt="imagem">
         </div>
+        
         <div class="formulario">
-            <form action="cadastro.php">
+           
+            <form action="cadastro.php" method="post">
+                
                 <div class="cabecalho-formulario">
                     <div class="titulo">
                         <h1>Cadastre-se</h1>
                     </div>
-                    <div class="botao-login"><a href="#">Entrar</a></div>
+
+                    <div class="botao-login">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
                 </div>
 
                 <div class="grupo-input">
@@ -28,7 +34,7 @@
                 
                     <div class="caixa-input">
                         <label for="sobrenome">Sobrenome</label>
-                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu primeiro sobrenome" required>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
                     </div>
 
                     <div class="caixa-input">
@@ -42,11 +48,18 @@
                     </div>
 
                     <div class="caixa-input">
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu primeiro nome" required>
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
                     </div>
 
-                    
+                    <div class="caixa-input">
+                        <label for="senhaconfirm">Confirme sua senha</label>
+                        <input type="password" name="senhaconfirm" id="senhaconfirm" placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
+
+                <div class="botao-continuar">
+                    <button><a href="#">Continuar</a></button>
                 </div>
             </form>
         </div>
