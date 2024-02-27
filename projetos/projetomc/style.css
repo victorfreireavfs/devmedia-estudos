@@ -147,3 +147,20 @@ body{
     }
 }
 
+
+@media screen and (max-width: 1063px){
+    .conteudo{
+        width: 100%;
+        height: auto;
+    }
+
+    .grupo-input{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+
+
+}
