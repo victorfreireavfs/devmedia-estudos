@@ -1,1 +1,0 @@
-Não foi possivel abrir este arquivo.
