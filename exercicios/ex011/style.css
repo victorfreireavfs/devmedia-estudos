@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.capa, .galeria{
+    width: calc(100% - 70px);
+    margin: 20px 35px;
+}
+
+.capa img, .capa p, .tres-imagens{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.tre-imagens{
+    display: flex;
+}
+
+.cabecalho , .rodape{
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    background: #1d6e4d;
+    color: #fff;
+    font-size: 20px;
+}
+
+.largura-limitada{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.galeria img{
+    width: calc((100% / 3) - 3px);
+    height: 15rem;
+}
