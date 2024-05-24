@@ -3,9 +3,9 @@
 // var valorContribuicao = 2500 * 0.10; 
 // var primeiraParcela = 2500 / 2; 
 
-var numero = 4;
+var preco = 10;
 // numero--;
 // numero--;
-// numero++;
+preco += 20;
 
-console.log(numero--)
+console.log(preco)
