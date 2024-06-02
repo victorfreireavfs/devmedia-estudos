@@ -36,35 +36,35 @@
 
 // -------------------------------------
 
-let produtos = [
-    { id: 1, nome: "pizza", preco: 50 },
-    { id: 2, nome: "macarronada", preco: 25 },
-    { id: 3, nome: "lasanha", preco: 45 },
-    { id: 4, nome: "nhoque", preco: 30 }
-];
+// let produtos = [
+//     { id: 1, nome: "pizza", preco: 50 },
+//     { id: 2, nome: "macarronada", preco: 25 },
+//     { id: 3, nome: "lasanha", preco: 45 },
+//     { id: 4, nome: "nhoque", preco: 30 }
+// ];
 
-let desconto = 5;
+// let desconto = 5;
 
-for ( let contador = 0; contador < produtos.length; contador++ ){
+// for ( let produto of produtos ){
 
-    let produto = produtos[contador];
+//    let nome = produto.nome;
+//    let valor = produto.preco;
 
-    for ( let propriedade in produto ){
+//    let valor_desconto = (valor * desconto) / 100;
+//    let novo_valor = valor - valor_desconto;
 
-        if ( propriedade == "preco" ) {
+//    console.log("Novo valor do produto " + nome + ": R$" + novo_valor + ",00");
+// }
 
-            let preco = propriedade;
+// ---------------------------
 
-            let novo_preco = produto[preco] - desconto;
+let notas_trimestre = [10 , 8 , 5 , 4];
 
-            console.log("preço atualizado: R$" + novo_preco + ",00");
+let total_notas = notas_trimestre.length;
+let soma_notas = 0;
 
-        } else {
-
-            console.log(propriedade + ": " + produto[propriedade]);
-        }
-
-    }
-
-    console.log("\n");
+for(let nota of notas_trimestre){
+    soma_notas = soma_notas + nota;
 }
+
+let  media_notas = soma_notas / total_notas;
