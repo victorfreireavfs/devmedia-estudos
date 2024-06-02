@@ -36,6 +36,8 @@
 
 // console.log(" O total de números ímpares é: " + total_impares);
 // console.log(" O total de números pares é: " + total_pares);
+// ---------------------
+
 
 let numeros = [10, 5, 7, 8, 9, 6, 12, 4];
 
