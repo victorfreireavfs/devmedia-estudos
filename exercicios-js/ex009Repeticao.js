@@ -1,15 +1,15 @@
-// let numero = 3;
-// let contador = 0;
+let numero = 3;
+let contador = 0;
 
-// console.log("Tabuada de multiplicação - Nº " + numero);
+console.log("Tabuada de multiplicação - Nº " + numero);
 
-// while(contador <= 10){
+while(contador <= 10){
     
-//     let resultado = numero * contador;
+    let resultado = numero * contador;
 
-//     console.log( numero + " x " + contador + " = " + resultado);
-//     contador++
-// }
+    console.log( numero + " x " + contador + " = " + resultado);
+    contador++
+}
 
 // ---------------------------
 
@@ -39,22 +39,22 @@
 // ---------------------
 
 
-let numeros = [10, 5, 7, 8, 9, 6, 12, 4];
+// let numeros = [10, 5, 7, 8, 9, 6, 12, 4];
 
-let impares = 0;
-let pares = 0;
+// let impares = 0;
+// let pares = 0;
 
-let contador = 0;
+// let contador = 0;
 
-while (contador < numeros.length) {
+// while (contador < numeros.length) {
 
-    if(numeros[contador] % 2 == 0){
-        pares++
-    } else{
-        impares++
-    }
-    contador++
-}
+//     if(numeros[contador] % 2 == 0){
+//         pares++
+//     } else{
+//         impares++
+//     }
+//     contador++
+// }
 
-console.log(" O total de números ímpares é: " + impares);
-console.log(" O total de números pares é: " + pares);
+// console.log(" O total de números ímpares é: " + impares);
+// console.log(" O total de números pares é: " + pares);
