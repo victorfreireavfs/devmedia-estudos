@@ -1,24 +1,24 @@
-// let frase = "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.";
-// let posicao = frase.indexOf("sonho");
+let frase = "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.";
+let posicao = frase.indexOf("sonho");
 
-// console.log(posicao);
+console.log(posicao);
 
 
-let expressao_proibida = "passaporte falso";
+// let expressao_proibida = "passaporte falso";
 
-let comentario = "   venda de PASSAPORTE FALSO   ";
+// let comentario = "   venda de PASSAPORTE FALSO   ";
 
-comentario = comentario.trim();
-comentario = comentario.toLowerCase();
+// comentario = comentario.trim();
+// comentario = comentario.toLowerCase();
 
-if ( comentario.indexOf(expressao_proibida) > -1 ){
+// if ( comentario.indexOf(expressao_proibida) > -1 ){
 
-    console.log("No seu comentário há palavras proibidas. Atualize seu comentário e envie novamente");
+//     console.log("No seu comentário há palavras proibidas. Atualize seu comentário e envie novamente");
 
-} else {
+// } else {
 
-    console.log("Seu comentário foi aprovado");
+//     console.log("Seu comentário foi aprovado");
 
-}
+// }
 
-console.log(comentario);
+// console.log(comentario);
