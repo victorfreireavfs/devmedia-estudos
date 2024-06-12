@@ -1,7 +1,7 @@
-let frase = "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.";
-let posicao = frase.indexOf("sonho");
+// let frase = "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.";
+// let posicao = frase.indexOf("sonho");
 
-console.log(posicao);
+// console.log(posicao);
 
 
 // let expressao_proibida = "passaporte falso";
@@ -22,3 +22,10 @@ console.log(posicao);
 // }
 
 // console.log(comentario);
+
+// let frase = "O Brasil é um país maravilhoso!";
+
+// let resultado = frase.indexOf("Brasil");
+
+// console.log(resultado);
+
