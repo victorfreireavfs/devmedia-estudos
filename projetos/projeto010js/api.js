@@ -26,7 +26,7 @@
 //     {ano:2020 , ipca:4.52},
 // ]
 
-import opcoesMenu from 'readline-sync';
+// import opcoesMenu from 'readline-sync';
 
 console.log("Escolha uma das alternativas: \n");
 
@@ -34,42 +34,18 @@ console.log("1 - Listar todos os salários mínimos de 2010 à 2020");
 console.log("2 - Listr o índice IPCA de 2010 à 2020");
 console.log("3 - Comparação entre o percentual de aumento salarial e o IPCA");
 
-let escolha = opcoesMenu.question("DIgite o número de sua escolha: ");
+// let escolha = opcoesMenu.question("DIgite o número de sua escolha: ");
 
-if(escolha == 1){
-    console.log("escolheu 1")
+// if(escolha == 1){
+//     console.log("escolheu 1")
 
-}else if (escolha == 2){
-    console.log("escolheu 2")
+// }else if (escolha == 2){
+//     console.log("escolheu 2")
 
-}else if(escolha == 3){
-    console.log("escolheu 3")
+// }else if(escolha == 3){
+//     console.log("escolheu 3")
 
-}else{
-    console.log("Número invalido!")
-};
-die;
+// }else{
+//     console.log("Número invalido!")
+// };
 
-// import entradaDados from 'readline-sync';
-
-// let x = 10;
-// let y = 5;
-
-// console.log("Escolha uma opção:");
-// console.log("1 - Somar x e y");
-// console.log("2 - Subtrair x e y");
-
-// let escolha = entradaDados.question("Digite o valor correspondente: ");
-
-// if(Number(escolha) == 1)
-// {
-// 	console.log(x + y);
-// }
-// else if(Number(escolha) == 2)
-// {
-// 	console.log(x - y);
-// }
-// else
-// {
-// 	console.log("Opção inválida");
-// }
