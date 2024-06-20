@@ -58,15 +58,15 @@
 
 // ---------------------------
 
-let notas_trimestre = [10 , 8 , 5 , 4];
+// let notas_trimestre = [10 , 8 , 5 , 4];
 
-let total_notas = notas_trimestre.length;
-let soma_notas = 0;
+// let total_notas = notas_trimestre.length;
+// let soma_notas = 0;
 
-for(let nota of notas_trimestre){
-    soma_notas = soma_notas + nota;
-}
+// for(let nota of notas_trimestre){
+//     soma_notas = soma_notas + nota;
+// }
 
-let  media_notas = soma_notas / total_notas;
+// let  media_notas = soma_notas / total_notas;
 
-console.log(media_notas)
+// console.log(media_notas)
