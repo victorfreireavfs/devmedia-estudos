@@ -10,4 +10,4 @@ var telefones = [
     '(91) 95620 - 0000'
 ]
 
-console.log(telefones[2])
+console.log(telefones[0])
