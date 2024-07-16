@@ -3,7 +3,7 @@
 // var valorContribuicao = 2500 * 0.10; 
 // var primeiraParcela = 2500 / 2; 
 
-var preco = 10;
+var preco = 20;
 // numero--;
 // numero--;
 preco += 20;
