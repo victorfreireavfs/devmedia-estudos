@@ -10,7 +10,7 @@ const diferencaTime = timeAtual - timeUltimoAcesso;
 const milissegundosHora = 1000 * 60 * 60;
 const milissegundosDia = milissegundosHora * 24;
 
-let msg = "";
+let msg = "";1
 
 if (hora < 6 || hora >= 18){
     console.log("boa noite!")
