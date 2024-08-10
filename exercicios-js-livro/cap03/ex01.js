@@ -2,26 +2,26 @@
 
 // var numero = 6;
 // var letra = "6";
-// numero.toString(numero);
-// console.log(numero + parseInt(letra));
+// letra = Number(letra)
+// console.log(numero + letra);
 
 //  --------------
 
 // USO DE OPERADORES
 
-// var a = 3;
-// var b = 7;
-// var c = a+b;
-// var d = a-b;
-// var e = a*b;
-// var f = a/b;
+// let a = 15;
+// let b = 5;
+// let c = a+b;
+// let d = a-b;
+// let e = a*b;
+// let f = a/b;
 // console.log(c, "\n",d,"\n",e, "\n",f)
 
 // -----------------------
 
 // ESTRUTURA DE CONTROLE CONDICIONAL
 
-// var idade = 19;
+// let idade = 19;
 // if (idade > 17){
 //     console.log("Você é maior de idade")
 // }else{
@@ -31,9 +31,20 @@
 // ---------------------------------
 
 // ESTRUTURAS DE CONTROLE DE LOOP(FOR)
-// var numero = 10;
-// for( i = 1; i <= numero; i++){
+// 
+// for( let i = 1; i <= 10; i++){
 //     console.log(i)
 // };
 
 // ---------------------------
+
+
+// ESTRUTURAS DE CONTROLE LOOP (WHILE)
+
+// let num = 10;
+
+// while(num >= 1){
+//     console.log(num),
+//     num--
+// };
+
