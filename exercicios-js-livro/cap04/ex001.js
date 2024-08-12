@@ -1,43 +1,24 @@
 // function saudacao(nome){
-//     console.log("olá, " + nome + "!");
+//     console.log("Olá, " + nome);
 // };
+// saudacao("Victor");
 
-// saudacao("maria");
+// ----------------------------
 
-// -------------
-
-// VARIÁVEL ESCOPO GLOAL
-// let cor = "vermelho";
-
-// function mostrarCor(){
-//     console.log(cor);
+// function soma(){
+//     let num1 = 3;
+//     let num2 = 6;
+//     console.log(num1 + num2);
 // }
+// soma();
 
-// mostrarCor();
+// ----------------
 
-// ---------------
-
-// ESCOPO LOCAL
-// function mostrarCarro(){
-//     let carro = "ferrari";
-//     console.log(carro);
-// }
-// mostrarCarro();
-
-
-// ---------------------
-
-// VARIÁVEIS LET E CONST
-// let ou const dentro de um bloco de código(escopo de bloco)
-
-// function testarLet(){
-//     if(true){
-//         let x  = 5;
-//         console.log(x);
-//     }
-// }
-// testarLet();
-
-// -----------------
-
-// 
+function parOuImpar(num){
+    if(num% = 0){
+        console.log("PAR")
+    }else(
+        console.log("ÍMPAR")
+    );
+};
+parOuImpar(2);
