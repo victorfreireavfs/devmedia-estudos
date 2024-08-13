@@ -15,10 +15,10 @@
 // ----------------
 
 function parOuImpar(num){
-    if(num% = 0){
-        console.log("PAR")
-    }else(
-        console.log("ÍMPAR")
-    );
+    if(num % 2 === 0){
+        console.log("PAR");
+    }else{
+        console.log ("ÍMPAR");
+    }
 };
-parOuImpar(2);
+parOuImpar(348527);
