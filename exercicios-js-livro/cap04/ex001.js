@@ -14,11 +14,30 @@
 
 // ----------------
 
-function parOuImpar(num){
-    if(num % 2 === 0){
-        console.log("PAR");
-    }else{
-        console.log ("ÍMPAR");
-    }
-};
-parOuImpar(348527);
+// function parOuImpar(num){
+//     if(num % 2 === 0){
+//         console.log("PAR");
+//     }else{
+//         console.log ("ÍMPAR");
+//     }
+// };
+// parOuImpar(348527);
+
+// -----------------
+
+// function contagemRegressiva (num){
+//     for (let i = num; i>=0; i--){
+//         console.log(i);
+//     }
+// }
+// contagemRegressiva(10);
+
+// -----------------
+
+// function testeEscopo(){
+//     let nome ="victor";
+//     console.log(nome); 
+// };
+// // console.log(nome);
+// testeEscopo();
+
