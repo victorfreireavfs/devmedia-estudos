@@ -21,7 +21,7 @@
 //         console.log ("ÍMPAR");
 //     }
 // };
-// parOuImpar(348527);
+// parOuImpar(34);
 
 // -----------------
 
