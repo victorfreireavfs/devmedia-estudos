@@ -20,7 +20,7 @@
 // .forEach() executa uma função para cada elemento
 
 // todasFrutas.forEach(function(todasFrutas){
-//     console.log(todasFrutas)
+//     console.log(todasFrutas);
 // });
 
 // .map() cria novo array resultado da chamada da função para cada elemento
