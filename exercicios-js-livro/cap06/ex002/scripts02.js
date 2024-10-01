@@ -13,3 +13,13 @@ let input = document.getElementById('myInput');
 input.addEventListener('change', function(){
     console.log('O valor do input foi alterado para' + this.value);
 });
+
+let form = document.getElementById('myForm');
+form.addEventListener('submit', function(event){
+    event.preventDefault() //isso imprede que a página seja recarregada
+    console.log('Formulário submetido!')
+});
+
+// window.addEventListener('keydown', function(event){
+//     console.log('Você pressionou a tecla:' + event.key);
+// });
