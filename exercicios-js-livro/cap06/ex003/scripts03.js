@@ -4,7 +4,7 @@ let titulo = document.getElementById('meuTitulo');
 titulo.style.color = 'blue';
 titulo.style.fontSize = '50px';
 
-elemento.classList.add('vermelho')
+elemento.classList.add('vermelho');
 elemento.style.fontSize = '20px';
 // elemento.style.color = 'red';
 // elemento.style.backgroundColor = 'black';
