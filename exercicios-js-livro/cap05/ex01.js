@@ -31,6 +31,6 @@ let quadrados = numeros.map(num => num*num);
 // arrow function
 console.log(quadrados)
 
-let soma = (a,b) => a+b;
+let soma = (a,b) => a*b;
 
 console.log(soma(5,5));
