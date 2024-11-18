@@ -1,4 +1,5 @@
 //  DECLARAÇÃO SIMPLES
+// function declaration
 
 // function dobro(x){
 //     return x * 2
@@ -6,7 +7,9 @@
 // console.log(dobro(200));
 
 
+
 // ------------------------
+// function expression
 // const dobro = function(x){
 //     return x * 2
 // }
@@ -26,6 +29,6 @@ const alunos = [
     {nome: 'Caline', nota: 3.5},
 ]
 
-const estaAprovado = aluno => aluno.nota >=6;
+const estaAprovado = aluno => aluno.nota >=7;
 const aprovados = alunos.filter(estaAprovado);
 console.log(aprovados); 
