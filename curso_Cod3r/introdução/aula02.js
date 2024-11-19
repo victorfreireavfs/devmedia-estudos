@@ -32,6 +32,3 @@
 // const estaAprovado = aluno => aluno.nota >=7;
 // const aprovados = alunos.filter(estaAprovado);
 // console.log(aprovados); 
-
-// IMUTABILIDADE
-
