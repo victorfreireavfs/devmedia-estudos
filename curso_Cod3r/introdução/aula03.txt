@@ -1,0 +1,8 @@
+INTRODUÇÃO
+
+Como funciona o JS ?
+
+- event queue
+- stack
+
+- função () function()
