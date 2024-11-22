@@ -1,18 +1,15 @@
-INTRODUÇÃO
-
-Como funciona o JS ?
-
-- event queue
-- stack
-
-- função () function()
-
------------------
-
-
-BÁSICO FUNÇÃO - RXJS
+BÁSICO 1 FUNÇÃO - RXJS
 
 function declaration = declaração de função
 functio expression = armazenar uma function dentro de uma const ou let
 flexibilidade de parâmetros = return (retorna o resultado da função com os parâmetros apresentados)
 
+--------------------------
+
+BÁSICO 2 - função como parâmetro pra outra função
+ pode-se executar a função através de verificações (typeof)
+
+ ==  igualdade de valores
+ === igualdade estrita valores e tipo
+
+ retornar função a partir de outra função
