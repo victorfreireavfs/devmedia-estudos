@@ -6,3 +6,13 @@ Como funciona o JS ?
 - stack
 
 - função () function()
+
+-----------------
+
+
+BÁSICO FUNÇÃO - RXJS
+
+function declaration = declaração de função
+functio expression = armazenar uma function dentro de uma const ou let
+flexibilidade de parâmetros = return (retorna o resultado da função com os parâmetros apresentados)
+
