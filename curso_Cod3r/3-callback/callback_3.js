@@ -21,10 +21,24 @@ const carrinho = [
     {nome:'tesoura',     qtde:1,  preco:19.20,}
 ]
 
+// const getName = item => item.nome
+// console.log(carrinho.map(getName))
+
+// const precoFinal = item => item.qtde * item.preco
+// const totais = carrinho.map(precoFinal)
+// console.log(totais)
+
+Array.prototype.meuMap = function(fn){
+    const novoArray = []
+    for(let i = 0; i < this.length; i++){
+        novoArray.push(fn(this[i], i, this))
+    }
+    return novoArray
+}
+
 const getName = item => item.nome
-console.log(carrinho.map(getName))
+console.log(carrinho.meuMap(getName))
 
 const precoFinal = item => item.qtde * item.preco
-const totais = carrinho.map(precoFinal)
+const totais = carrinho.meuMap(precoFinal)
 console.log(totais)
-
