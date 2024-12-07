@@ -24,3 +24,16 @@ console.log(totalGeral)
 
 //  3. media de preço dos produtos
 
+const media = carrinho
+    .map(item => ({ valorTotal: item.qtde * item.preco, quantidade: item.qtde }))
+    .reduce(
+        (acc, item) => {
+            acc.somaValores += item.valorTotal;
+            acc.somaQuantidades += item.quantidade;
+            return acc;
+        },
+        { somaValores: 0, somaQuantidades: 0 }
+    );
+
+const mediaFinal = media.somaValores / media.somaQuantidades;
+console.log("Média de preço total:", mediaFinal.toFixed(2));
