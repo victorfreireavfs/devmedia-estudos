@@ -37,3 +37,33 @@ const media = carrinho
 
 const mediaFinal = media.somaValores / media.somaQuantidades;
 console.log("Média de preço total:", mediaFinal.toFixed(2));
+
+// --------------------
+
+const produtos = [
+    { nome: "Caneta", categoria: "Papelaria" },
+    { nome: "Lápis", categoria: "Papelaria" },
+    { nome: "Detergente", categoria: "Limpeza" }
+]
+
+    const agrupados = produtos.reduce((acc, item) =>{
+        if(!acc[item.categoria]){
+            acc[item.categoria]=[]
+        }
+        acc[item.categoria].push(item.nome)
+        return acc
+    }, {})
+    console.log(agrupados);
+
+// --------------------------------
+
+const carrinho2 = [
+    { nome: "Caneta", quantidade: 10, preco: 2.0 },
+    { nome: "Caderno", quantidade: 2, preco: 20.0 }
+]
+
+const totalCarinho2 = carrinho2.reduce((acc, item) =>{
+    return acc + item.quantidade * item.preco
+}, 0)
+
+console.log(totalCarinho2   )
