@@ -17,8 +17,7 @@ console.log('Proutos frágeis: ' + prodFragil)
 
 // 2. quantidade * preco = total
 const getTotal = item => item.qtde * item.preco
-const totalGeral = carrinho
-.map(getTotal)
+const totalGeral = carrinho.map(getTotal)
 console.log(totalGeral)
 
 
