@@ -11,6 +11,6 @@ let imc = peso / altura ** 2
 
 // console.log(imc.toFixed(2))
 
-console.log(`${nome} ${sobrenome}, nascido em ${nasc} 
+console.log(`${nome} ${sobrenome}, nascido em ${nasc}, 
 tem ${idade} anos, pesa ${peso} kg, tem ${altura} de 
-altura e seu IMC é de ${imc.toFixed(2)}` )
+altura e seu IMC é de ${imc.toFixed(2)}.`)
