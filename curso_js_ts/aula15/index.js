@@ -15,7 +15,7 @@ let num1 = 16
 // const ale = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
 
 // console.log(Math.pow(2, 10)); POTENCIAÇÃO
-// console.log(2**10);
+console.log(2**2);
 
 // console.log(num1 ** 0.5) RAÍZ QUADRADA
 
