@@ -12,4 +12,3 @@ texto.innerHTML += ` Arredondando para cima:  ${Math.ceil(numero)}<br/>`;
 texto.innerHTML += ` Arredondando para baixo:  ${Math.floor(numero)}<br/>`;
 texto.innerHTML += ` Representação binária:  ${numero.toString(2)}<br/>`;
 texto.innerHTML += ` Duas casas decimais:  ${numero.toFixed (2)}<br/>`;
-
